@@ -1,0 +1,109 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgrey;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    height: 90vh;
+    background-image: linear-gradient(45deg, purple 12%, blue 180%);
+    flex-direction: column;
+    align-content: center;
+    padding: 8px 15px;
+    align-items: center;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jugador {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    height: 350px;
+    width: 100%;
+}
+
+#Piedra,
+#papel,
+#tijeras {
+    display: none;
+}
+
+#piedra2,
+#papel2,
+#tijeras2 {
+    display: none;
+}
+
+.Objetos {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+select {
+    padding: 12px 48px;
+    border-radius: 45px;
+    color: white;
+    font-size: 20px;
+    margin-top: 1rem;
+    cursor: pointer;
+    outline: none;
+    background-color: #1A1B27;
+    font-weight: 680;
+    width: 40%;
+}
+
+#Ganar {
+    border-radius: 45px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: lawngreen;
+    font-weight: 680;
+    width: 60%;
+    height: 12%;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 5px;
+    display: none;
+}
+
+#Mostrar2 {
+    border-radius: 45px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    background-color: #1A1B27;
+    font-weight: 680;
+    display: flex;
+    width: 35%;
+    height: 75%;
+    text-align: center;
+    padding-top: 12px;
+    justify-content: center;
+}

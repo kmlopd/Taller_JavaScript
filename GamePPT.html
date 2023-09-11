@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css">
+    <title>Piedra,Papel y Tijerast</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <a href="index.html" style="color: lightsalmon;">INICIO</a>
+        <h2>Juega Piedra, Papel Y Tijeras</h2>
+        <div class="imagenes">
+            <div class="jugador">
+                <img src="Opcion1.png" alt="/" id="opcion1" class="option" />
+                <img src="M_Piedra.png" alt="/" id="Piedra" class="option" />
+                <img src="M_papel2.png" alt="/" id="papel" class="option" />
+                <img src="M_Tijeras.png" alt="/" id="tijeras" class="option" />
+            </div>
+            <h1>VS</h1>
+            <div class="jugador">
+                <img src="Opcion2.png" alt="/" id="opcion2" class="option" />-
+                <img src="M_Piedra.png" alt="/" id="piedra2" class="option" />
+                <img src="M_papel2.png" alt="/" id="papel2" class="option" />
+                <img src="M_Tijeras.png" alt="/" id="tijeras2" class="option" />
+            </div>
+        </div>
+        <div class="Objetos">
+            <select title="Op_game" id="opcion" onChange="MostarImg()">
+                    <option value="Opcion1">-Selecciona-</option>
+                    <option value="Piedra">PIEDRA</option>
+                    <option value="papel">PAPEL</option>
+                    <option value="tijeras">TIJERAS</option>
+                </select>
+            <p id="Mostrar2">AUTO REPLY</p>
+        </div>
+        <p id="Ganar"></p>
+    </div>
+</body>
+
+</html>

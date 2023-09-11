@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>INDICE DE MASA CORPORAL</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="form">
+            <a href="index.html" style="color: lightsalmon;">INICIO</a>
+            <h2>Indice de Masa Corporal</h2>
+            <label class="datos">Nombre <input type="text" id="Nombre" class="input" placeholder="Ingrese su Nombre"></label>
+            <div class="btn-radio">
+                <input type="radio" id="kilograms" name="masa" checked>
+                <label for="kilograms" class="radioB">Kilogramo (Kg) </label>
+                <input type="radio" id="Libra" name="masa">
+                <label for="Libra" class="radioB">Libra (Lb)</label>
+            </div>
+            <!--</br>-->
+            <label class="datos">Peso <input type="number" id="Peso" class="input" placeholder="Ingrese Su Peso"></label>
+
+            <div class="btn-radio">
+                <input type="radio" id="Metros" name="Unidades" checked>
+                <label for="Metros" class="radioB">Metros (Mt) </label>
+                <input type="radio" id="Centimetros" name="Unidades">
+                <label for="Centimetos" class="radioB">Centimetos (Cm)</label>
+            </div>
+            <!--</br>-->
+            <label class="datos">Altura <input type="number" id="Altura" class="input" placeholder="Ingrese Su Altura"></label>
+        </div>
+
+        <div class="btn">
+            <button id="boton" onclick="Calcular ()">Calcular</button>
+            <p id="Mostrar">Resultado</p>
+        </div>
+    </div>
+</body>
+
+</html>

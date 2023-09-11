@@ -1,0 +1,169 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    background-color: lightgray;
+    height: 100vh;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-width: 34%;
+    min-height: 68%;
+    max-height: 95%;
+    border-radius: 14px;
+    background-image: linear-gradient(45deg, purple 12%, blue 180%);
+}
+
+.cont-index {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 65%;
+    border-radius: 14px;
+    background-image: linear-gradient(45deg, cyan 18%, blue 140%);
+}
+
+.Juegos {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-img {
+    display: flex;
+    padding-top: 12px;
+    padding-bottom: 20px;
+}
+
+img {
+    margin-left: 12px;
+    width: 180px;
+    height: 140px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    padding-left: 8px;
+    padding-right: opx;
+    padding-bottom: 10px;
+    color: #4B0082;
+}
+
+h3 {
+    display: flex;
+    text-align: center;
+}
+
+.datos {
+    font-weight: 700;
+    font-size: 22px;
+    color: aquamarine;
+    margin-left: 15px;
+}
+
+.radioB {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.texto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border-radius: 50px;
+    border-style: none;
+    font-size: 16px;
+    outline: none;
+    padding: 14px 24px;
+    width: 65%;
+    background: lightcyan;
+}
+
+.btn-radio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-radio input {
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.game {
+    background-color: blueviolet;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 30%;
+    border-radius: 50px;
+    margin-top: 14px;
+}
+
+#boton {
+    padding: 12px 48px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 1rem;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    border-width: 8;
+    background-color: limegreen;
+    font-weight: 680;
+    width: 100%;
+    max-width: 400px;
+    order: 1;
+}
+
+#Mostrar {
+    padding: 12px 48px;
+    border-radius: 50px;
+    text-align: justify;
+    color: black;
+    margin-top: 1rem;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    border-width: 8;
+    background-color: cyan;
+    font-weight: 680;
+    width: 100%;
+    max-width: 400px;
+}
